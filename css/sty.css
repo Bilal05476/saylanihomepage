@@ -13,137 +13,31 @@
     color: #fff;
     padding-top: 10px;
 }
-      /* new coding for navigation */
-.drpdown{
-    background-color: rgb(243, 242, 242);
-    height: auto;
-    width: 100%;
-}
-.drpdown ul{
-    float: right;
-    margin-right:20px;
-}
-.drpdown ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-.checkbtn{
-    font-size: 30px;
-    color: rgb(45, 45, 194);
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
 
-#check{
-    display: none;
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
 }
-.drpdown ul li{
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-    border-radius: 3px;
-    padding: 7px 13px;
-    
-}
-.drpdown ul li a{
-    color: black;
-    padding: 7px 13px;
-    border-radius: 3px;
-}
-.drpdown ul li a:hover{
-    color: white;
-}
-a.active,a:hover{
+.navbar li:hover{
     background-color: rgb(45, 45, 194);
     transition: .5s;
-    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 5px;
 }
-.sub-menu-1{
-    display: none;
-}
-/* .drpdown{
-    float: right;
-    display: inline-flex;
+.active{
+    background-color: rgb(45, 45, 194);
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 5px;
 }
 
-a.active,a:hover{
-    background-color: rgb(45, 45, 194);
-    border-radius: 20px;
-    color: #fff;
-    transition: .5s;
-}
-.drpdown ul{
-    display: inline-flex;
-    list-style-type: none;
-    font-size: smaller;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-.drpdown ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
 
-li{
-    width: auto ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-.drpdown ul li a{
-    text-decoration: none;
-    color: black;
-    border-radius: 3px;
-    padding: 7px 13px;
-    
-}
-.sub-menu-1{
-    display: none;
-}
-.drpdown ul li:hover .sub-menu-1{
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    margin-left: -15px;
-    margin-top: 15px;
-}
-.drpdown ul li:hover .sub-menu-1 ul {
-    display: block;
-    margin: 10px;
-    padding-left: 0;
-}
-.drpdown ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    padding: 10px;
-    padding-left: -30px;
-    border-bottom: 1px white;
-    text-align: left;
-    background: transparent;
-    border-radius: 0;
-}
-.drpdown ul li:hover .sub-menu-1 ul li:hover{
-    color: #fff;
-    background-color: rgb(45, 45, 194);
-}
-
-ul li a:hover{
-    color: #fff;
-    background-color: rgb(45, 45, 194);
-} */
 .logo{
     width: 200px;
-    height: 80px;
-    padding-left: 30px;
-    margin-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 80px;
+    height: 50px;
+    
 }
 
 .slideshow
@@ -325,63 +219,6 @@ h1{
                               /* media queries */
 
                          /* navigation for Mbile view */
-@media(max-width:990px){
-    .checkbtn{
-        display: inline-block;
-    }
-    .drpdown ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color:rgb(45, 45, 194);
-        text-align: justify;
-        left: -100%;
-        top: 210px;
-        transition: all .5s;
-    }
-    a.active{
-        background-color: #fff;
-    }
-    a.active:hover{
-        background-color: black;
-    }
-    .drpdown ul li{
-        display: block;
-    }
-    .drpdown ul li a:hover{
-        color: white;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    
-    .sub-menu-1{
-        display: block;
-        background-color: #fff;
-        position: absolute;
-        margin-left: -15px;
-        margin-top: 15px;
-    }
-    /*
-    .drpdown ul li:hover .sub-menu-1 ul {
-        display: block;
-        margin: 10px;
-        padding-left: 0;
-    }
-    .drpdown ul li:hover .sub-menu-1 ul li{
-        width: 150px;
-        padding: 10px;
-        padding-left: -30px;
-        border-bottom: 1px white;
-        text-align: left;
-        background: transparent;
-        border-radius: 0;
-    }
-    .drpdown ul li:hover .sub-menu-1 ul li:hover{
-        color: #fff;
-        background-color: rgb(45, 45, 194);
-    } */
-}
 
 @media(max-width:991px){
     .container{
@@ -405,11 +242,6 @@ h1{
     }
     .follow p{
         margin-bottom: 10px;
-    }
-}
-@media(max-width:570px){
-    .drpdown ul{
-        top: 235px;
     }
 }
 
@@ -457,10 +289,6 @@ h1{
     background-position: cover;
     padding-top: 30px;
     animation: slider 40s infinite linear;
-    }
-    .logo{
-        padding-left: 10px;
-        margin: 0;
     }
     .container{
         padding-top: 50px;
