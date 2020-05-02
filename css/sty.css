@@ -1,0 +1,468 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+.header{
+    background-color: rgb(45, 45, 194);
+    padding: 15px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.slog{
+    color: #fff;
+    padding-top: 10px;
+}
+      /* new coding for navigation */
+.drpdown{
+    background-color: rgb(243, 242, 242);
+    height: auto;
+    width: 100%;
+}
+.drpdown ul{
+    float: right;
+    margin-right:20px;
+}
+.drpdown ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(45, 45, 194);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+.drpdown ul li{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 7px 13px;
+    
+}
+.drpdown ul li a{
+    color: black;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.drpdown ul li a:hover{
+    color: white;
+}
+a.active,a:hover{
+    background-color: rgb(45, 45, 194);
+    transition: .5s;
+    text-decoration: none;
+}
+.sub-menu-1{
+    display: none;
+}
+/* .drpdown{
+    float: right;
+    display: inline-flex;
+}
+
+a.active,a:hover{
+    background-color: rgb(45, 45, 194);
+    border-radius: 20px;
+    color: #fff;
+    transition: .5s;
+}
+.drpdown ul{
+    display: inline-flex;
+    list-style-type: none;
+    font-size: smaller;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.drpdown ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+li{
+    width: auto ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.drpdown ul li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 7px 13px;
+    
+}
+.sub-menu-1{
+    display: none;
+}
+.drpdown ul li:hover .sub-menu-1{
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.drpdown ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+    padding-left: 0;
+}
+.drpdown ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    padding-left: -30px;
+    border-bottom: 1px white;
+    text-align: left;
+    background: transparent;
+    border-radius: 0;
+}
+.drpdown ul li:hover .sub-menu-1 ul li:hover{
+    color: #fff;
+    background-color: rgb(45, 45, 194);
+}
+
+ul li a:hover{
+    color: #fff;
+    background-color: rgb(45, 45, 194);
+} */
+.logo{
+    width: 200px;
+    height: 80px;
+    padding-left: 30px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 80px;
+}
+
+.slideshow
+{
+    width: auto;
+    height: 400px;
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 30px;
+    animation: slider 40s infinite linear;
+}
+@keyframes slider{
+    5%{background-image: url(../images/1.jpg);}
+
+    25%{background-image: url(../images/2.jpeg);}
+
+    50%{background-image: url(../images/RotiBank_Slider.jpg);}
+
+    75%{background-image: url(../images/3.jpg);}
+
+    100%{background-image: url(../images/4.jpg);}
+}
+.container{
+    background-color: rgb(243, 242, 242);
+    height: auto;
+    padding: 150px;
+    margin: auto;
+    text-align: center;
+
+    
+}
+.main-txt{
+    display: inline-block;
+    color: gray;
+    text-align: justify;
+}
+
+h1{
+    display: inline;
+    font-family: inherit;
+     
+}
+.head1{
+    color: blue;
+}
+.head2{
+    color: green;
+}
+.simg{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.services{
+    height:auto; 
+    background-color: rgb(50, 50, 238);
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+
+}
+
+.s1{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.services p{
+    font-weight: bold;
+    display: inline;
+    
+}
+.services h2{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #fff;
+}
+.monthly{
+    color: rgb(86, 255, 86);
+    font-weight: bold;
+}
+
+.what-we
+{
+    height:auto; 
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+.onlinesadqah{
+    text-align: center;
+    background-color: #fff;
+    width: 350px;
+    height: 180px;
+    color: blue;
+    font-weight: 600;
+    font-size: large;
+    box-shadow: gray 1px 1px 5px 1px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.onlinesadqah .simg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.gallery{
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    padding: 80px;
+    margin: auto;
+}
+.gallery-img{
+    display: inline-block;
+    width: 220px;
+    height: 150px;
+    padding-top: 20px;
+}
+
+ 
+/*Footer*/
+
+.footer{
+    height:auto; 
+    background-color: rgb(27, 23, 23);
+    padding: 100px;
+    margin: auto;
+}
+.contact{
+    color: grey;
+    clear: both;
+}
+.fa {
+    padding-right: 5px;
+}
+.follow{
+    color: white;
+    float: right;
+    font-weight: 800;
+    font-size: large;
+}
+.icon2{
+    margin:5px;
+    padding-right:5px;
+}
+.copyright{
+    background-color: rgb(50, 50, 238);
+    height: auto;
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    
+}
+.copyright p{
+    margin: 0;
+}
+.icon2 a{
+    color: white;
+}
+.icons a{
+    color: white;
+}
+
+                              /* media queries */
+
+                         /* navigation for Mbile view */
+@media(max-width:990px){
+    .checkbtn{
+        display: inline-block;
+    }
+    .drpdown ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(45, 45, 194);
+        text-align: justify;
+        left: -100%;
+        top: 210px;
+        transition: all .5s;
+    }
+    a.active{
+        background-color: #fff;
+    }
+    a.active:hover{
+        background-color: black;
+    }
+    .drpdown ul li{
+        display: block;
+    }
+    .drpdown ul li a:hover{
+        color: white;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    .sub-menu-1{
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        margin-left: -15px;
+        margin-top: 15px;
+    }
+    /*
+    .drpdown ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 10px;
+        padding-left: 0;
+    }
+    .drpdown ul li:hover .sub-menu-1 ul li{
+        width: 150px;
+        padding: 10px;
+        padding-left: -30px;
+        border-bottom: 1px white;
+        text-align: left;
+        background: transparent;
+        border-radius: 0;
+    }
+    .drpdown ul li:hover .sub-menu-1 ul li:hover{
+        color: #fff;
+        background-color: rgb(45, 45, 194);
+    } */
+}
+
+@media(max-width:991px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+    
+    }
+    .copyright{
+        padding-left:0;
+        text-align: center;
+    }
+    .follow{
+        float: left;
+        padding-top: 30px;
+    }
+    .icon2{
+        margin:2px;
+        padding-right:2px;
+        padding-bottom: 5px;
+    }
+    .follow p{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:570px){
+    .drpdown ul{
+        top: 235px;
+    }
+}
+
+                 /* Mobile View */
+
+@media(max-width: 467px){
+    .onlinesadqah{
+        text-align: center;
+        background-color: #fff;
+        width: 255px;
+        height: 180px;
+        color: blue;
+        font-weight: 600;
+        font-size: medium;
+        box-shadow: gray 1px 1px 5px 1px;
+        display: block;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    h1{
+        display: inline;
+        font-family: inherit;
+        font-size: large;
+         
+    }
+    .simg{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .gallery-img{
+        display: block;
+        margin: 1px auto;
+        width: 200px;
+    }
+    .footer{
+        padding-left: 30px;
+    }
+    .slideshow{
+    width: auto;
+    height: 200px;
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    padding-top: 30px;
+    animation: slider 40s infinite linear;
+    }
+    .logo{
+        padding-left: 10px;
+        margin: 0;
+    }
+    .container{
+        padding-top: 50px;
+    }
+}
