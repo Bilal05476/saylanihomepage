@@ -24,6 +24,8 @@
     transition: .5s;
     border-radius: 10px;
     padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
     margin-right: 5px;
 }
 .active{
