@@ -39,7 +39,13 @@
     height: 50px;
     
 }
-
+.icons a{
+    color: #fff;
+    padding: 3px;
+}
+.icons .wht{
+    color: rgb(150, 182, 45);
+}
 .slideshow
 {
     width: auto;
@@ -61,7 +67,7 @@
 
     100%{background-image: url(../images/4.jpg);}
 }
-.container{
+.container1{
     background-color: rgb(243, 242, 242);
     height: auto;
     padding: 150px;
@@ -173,47 +179,47 @@ h1{
  
 /*Footer*/
 
-.footer{
-    height:auto; 
-    background-color: rgb(27, 23, 23);
-    padding: 100px;
-    margin: auto;
+#footer{
+    background-color: blue;
+    padding: 0 0 30px 0;
+    color: aliceblue;
+    font-size: 14px;
 }
-.contact{
-    color: grey;
-    clear: both;
+#footer .footer-top{
+    padding: 60px 0 30px 0;
+    background-color: rgb(31, 27, 27)
 }
-.fa {
-    padding-right: 5px;
-}
-.follow{
-    color: white;
-    float: right;
-    font-weight: 800;
-    font-size: large;
-}
-.icon2{
-    margin:5px;
-    padding-right:5px;
-}
-.copyright{
-    background-color: rgb(50, 50, 238);
-    height: auto;
-    color: white;
-    padding-left: 100px;
-    padding-top: 10px;
+#footer .footer-top h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
     padding-bottom: 10px;
-    font-size: small;
-    
 }
-.copyright p{
-    margin: 0;
+#footer .footer-top .footer-links{
+    padding-bottom: 30px;
 }
-.icon2 a{
-    color: white;
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+    margin-right: 150px;
+    color: rgb(114, 111, 111);
+
 }
-.icons a{
-    color: white;
+#footer .footer-top .footer-contact i{
+    color: rgb(150, 182, 45);
+}
+#footer .footer-top .footer-contact p{
+    line-height: 26px;
+}
+#footer .footer-top .footer-social-links i{
+    background-color: royalblue;
+    border-radius: 50%;
+    padding: 7px;
+}
+#footer .copyright{
+    text-align: center;
+    padding-top:30px;
 }
 
                               /* media queries */
@@ -221,11 +227,11 @@ h1{
                          /* navigation for Mbile view */
 
 @media(max-width:991px){
-    .container{
+    .container1{
         padding-left: 20px;
         padding-right: 20px;
         margin: auto;
-    
+/*     
     }
     .copyright{
         padding-left:0;
@@ -233,16 +239,16 @@ h1{
     }
     .follow{
         float: left;
-        padding-top: 30px;
+        padding-top: 30px; */
     }
-    .icon2{
+    /* .icon2{
         margin:2px;
         padding-right:2px;
         padding-bottom: 5px;
-    }
-    .follow p{
+    } */
+    /* .follow p{
         margin-bottom: 10px;
-    }
+    } */
 }
 
                  /* Mobile View */
@@ -278,9 +284,9 @@ h1{
         margin: 1px auto;
         width: 200px;
     }
-    .footer{
+    /* .footer{
         padding-left: 30px;
-    }
+    } */
     .slideshow{
     width: auto;
     height: 200px;
@@ -290,7 +296,7 @@ h1{
     padding-top: 30px;
     animation: slider 40s infinite linear;
     }
-    .container{
+    .container1{
         padding-top: 50px;
     }
 }
